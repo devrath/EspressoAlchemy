@@ -15,7 +15,7 @@ class FormScreenActivity : AppCompatActivity() {
         binding = ActivityFormBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnTxtId.setOnClickListener {
+        binding.btnTextCheckId.setOnClickListener {
             binding.edtInputFieldId.setText("Updated text")
         }
     }
