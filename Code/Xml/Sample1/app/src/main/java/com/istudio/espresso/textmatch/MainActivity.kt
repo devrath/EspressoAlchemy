@@ -1,7 +1,8 @@
-package com.istudio.espresso
+package com.istudio.espresso.textmatch
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.istudio.espresso.R
 
 class MainActivity : AppCompatActivity() {
 
