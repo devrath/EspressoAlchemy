@@ -20,4 +20,4 @@
 * [`What is espresso`](https://github.com/devrath/EspressoAlchemy/wiki/What-is-espresso)
 
 ## `Demos`
-* [`Finding the view by Id, Tag text displayed and matching to result`](https://github.com/devrath/EspressoAlchemy/wiki/Finding-the-view-by-Id,-Tag-text-displayed-and-matching-to-result)
+* [`Finding the view by Id, Tag, text displayed and matching to result`](https://github.com/devrath/EspressoAlchemy/wiki/Finding-the-view-by-Id,-Tag-text-displayed-and-matching-to-result)
