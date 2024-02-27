@@ -13,8 +13,8 @@
 </div>
 
 
-## Set-up
-* [GoogleDocs](https://developer.android.com/training/testing/espresso/setup)
+## `Set-up`
+* [`GoogleDocs`](https://developer.android.com/training/testing/espresso/setup)
 
-## Learnings
-* [What is espresso](https://github.com/devrath/EspressoAlchemy/wiki/What-is-espresso)
+## `Learnings`
+* [`What is espresso`](https://github.com/devrath/EspressoAlchemy/wiki/What-is-espresso)
