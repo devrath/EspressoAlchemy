@@ -18,3 +18,6 @@
 
 ## `Learnings`
 * [`What is espresso`](https://github.com/devrath/EspressoAlchemy/wiki/What-is-espresso)
+
+## `Demos`
+* [`Matching Text by Id and by the displayed text`](https://github.com/devrath/EspressoAlchemy/wiki/Matching-Text-by-Id-and-by-the-displayed-text)
