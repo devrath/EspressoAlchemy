@@ -15,7 +15,7 @@ class ContactsActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contacts)
-        setResult(RESULT_OK, createResultData("896-745-231"))
+        setResult(RESULT_OK, createResultData("9844802176"))
         finish()
     }
 
