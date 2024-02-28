@@ -18,6 +18,8 @@
 
 ## `Learnings`
 * [`What is espresso`](https://github.com/devrath/EspressoAlchemy/wiki/What-is-espresso)
+* [`What is resource idling`](https://github.com/devrath/EspressoAlchemy/wiki/What-is-resource-idling)
 
 ## `Demos`
 * [`Finding the view by Id, Tag, text displayed and matching to result`](https://github.com/devrath/EspressoAlchemy/wiki/Finding-the-view-by-Id,-Tag-text-displayed-and-matching-to-result)
+* [`Screen with Form and button action`](https://github.com/devrath/EspressoAlchemy/wiki/Screen-with-Form-and-button-action)
