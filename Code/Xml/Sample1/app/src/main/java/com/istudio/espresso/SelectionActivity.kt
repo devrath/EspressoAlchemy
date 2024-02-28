@@ -7,6 +7,7 @@ import com.istudio.espresso.databinding.ActivitySelectionBinding
 import com.istudio.espresso.demos.FormScreenActivity
 import com.istudio.espresso.demos.MainActivity
 import com.istudio.espresso.demos.ResourceIdlingActivity
+import com.istudio.espresso.demos.TestingIntentsActivity
 import com.istudio.espresso.utils.openActivity
 
 class SelectionActivity : AppCompatActivity() {
@@ -25,6 +26,7 @@ class SelectionActivity : AppCompatActivity() {
             btnMatchByTextId.setOnClickListener { openActivity(MainActivity::class.java) }
             btnBtnActionId.setOnClickListener { openActivity(FormScreenActivity::class.java) }
             btnIdlingResourceId.setOnClickListener { openActivity(ResourceIdlingActivity::class.java) }
+            btnTestingIntentsId.setOnClickListener { openActivity(TestingIntentsActivity::class.java) }
         }
     }
 

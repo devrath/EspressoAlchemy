@@ -25,6 +25,7 @@
         <activity android:name=".demos.MainActivity"/>
         <activity android:name=".demos.FormScreenActivity"/>
         <activity android:name=".demos.ResourceIdlingActivity"/>
+        <activity android:name=".demos.TestingIntentsActivity"/>
     </application>
 
 </manifest>
