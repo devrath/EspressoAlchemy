@@ -19,7 +19,7 @@ class ResourceIdlingActivity : AppCompatActivity() {
         binding = ActivityResourceIdlingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnTextCheckId.setOnClickListener {
+        binding.btnResourceIdlingId.setOnClickListener {
             val manager = NetworkManager()
             // Request started
             binding.txtInputFieldId.text = "Started"
