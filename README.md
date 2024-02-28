@@ -19,8 +19,9 @@
 ## `Learnings`
 * [`What is espresso`](https://github.com/devrath/EspressoAlchemy/wiki/What-is-espresso)
 * [`What is resource idling`](https://github.com/devrath/EspressoAlchemy/wiki/What-is-resource-idling)
+* [`What are Espresso Intents`](https://github.com/devrath/EspressoAlchemy/wiki/What-are-Espresso-Intents)
 
 ## `Demos`
 * [`Finding the view by Id, Tag, text displayed and matching to result`](https://github.com/devrath/EspressoAlchemy/wiki/Finding-the-view-by-Id,-Tag-text-displayed-and-matching-to-result)
 * [`Screen with Form and button action`](https://github.com/devrath/EspressoAlchemy/wiki/Screen-with-Form-and-button-action)
-* [`Resource Idling: Calling a time consuming function`](https://github.com/devrath/EspressoAlchemy/wiki/Resource-Idling:-Calling-a-time-consuming-function)
+* [`Resource Idling: Calling a time-consuming function`](https://github.com/devrath/EspressoAlchemy/wiki/Resource-Idling:-Calling-a-time-consuming-function)
