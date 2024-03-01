@@ -46,7 +46,7 @@
 
 <div align="center">
 
-![1_q8ucByrmtlKHmbBVoY2aVg](https://github.com/devrath/TestingAlchemy/assets/1456191/26c1e081-5c98-459e-8da1-9a13a8bb38c5)
+![[1_tQsY4q4_trn0bw3o4ZnYxQ](https://github.com/devrath/TestingAlchemy/assets/1456191/7a503335-499c-4fcc-a3bd-19b846892277)
 
 </div>
 
