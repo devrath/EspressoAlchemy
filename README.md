@@ -45,16 +45,12 @@
 <h1 align="center">𝙼𝚘𝚌𝚔𝙺</h1>
 
 <div align="center">
-
-![[1_tQsY4q4_trn0bw3o4ZnYxQ](https://github.com/devrath/TestingAlchemy/assets/1456191/7a503335-499c-4fcc-a3bd-19b846892277)
-
-</div>
-
-<div align="center">
-
-🍂 𝚃𝚑𝚎𝚜𝚎 𝚗𝚘𝚝𝚎𝚜 𝚘𝚏𝚏𝚎𝚛𝚜 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚊𝚗𝚍 𝚜𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚗 𝙼𝚘𝚌𝚔𝙺 𝚏𝚛𝚊𝚖𝚎𝚠𝚘𝚛𝚔.
+  
+![1_tQsY4q4_trn0bw3o4ZnYxQ](https://github.com/devrath/TestingAlchemy/assets/1456191/6d80ed1d-ec2a-4652-ace4-7a2df012d86a)
 
 </div>
+
+<div align="center"> 🍂 𝚃𝚑𝚎𝚜𝚎 𝚗𝚘𝚝𝚎𝚜 𝚘𝚏𝚏𝚎𝚛𝚜 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚊𝚗𝚍 𝚜𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚗 𝙼𝚘𝚌𝚔𝙺 𝚏𝚛𝚊𝚖𝚎𝚠𝚘𝚛𝚔. </div>
 
 
 ## `Set-up`
