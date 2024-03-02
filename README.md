@@ -61,3 +61,4 @@
   
 ## `Demos`
 * [`Mocking Repository in the presenter class`](https://github.com/devrath/TestingAlchemy/wiki/MockK:-Mocking-Repository-in-the-presenter-class)
+* [`Testing private methods using spyK`](https://github.com/devrath/TestingAlchemy/wiki/Testing-private-methods-using-spyK)
