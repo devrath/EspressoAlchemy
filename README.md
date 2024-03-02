@@ -60,3 +60,4 @@
 * [`What is mockK`](https://github.com/devrath/TestingAlchemy/wiki/What-is-MockK)
   
 ## `Demos`
+* [`Mocking Repository in the presenter class`](https://github.com/devrath/TestingAlchemy/wiki/MockK:-Mocking-Repository-in-the-presenter-class)
