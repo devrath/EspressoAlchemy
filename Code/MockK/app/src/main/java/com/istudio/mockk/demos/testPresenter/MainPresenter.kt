@@ -10,7 +10,7 @@ class MainPresenter(
             val result = dataRepository.fetchData()
 
             view.onResult(
-                result.map { it.dataValue }
+                result.map { it }
             )
         } catch (err: Exception) {
             view.onError(err)

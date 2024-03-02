@@ -7,7 +7,7 @@ interface MainContract {
     }
 
     interface View {
-        fun onResult(result: List<String>)
+        fun onResult(result: List<DataModel>)
         fun onError(error: Throwable)
     }
 
