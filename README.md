@@ -8,6 +8,7 @@
 | ---------- |
 | [`𝙴𝚜𝚙𝚛𝚎𝚜𝚜𝚘`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%99%B4%F0%9D%9A%9C%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%9C%F0%9D%9A%9C%F0%9D%9A%98) |
 | [`𝙼𝚘𝚌𝚔𝙺`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%99%BC%F0%9D%9A%98%F0%9D%9A%8C%F0%9D%9A%94%F0%9D%99%BA) |
+| [`𝙼𝚘𝚌𝚔𝚆𝚎𝚋𝚂𝚎𝚛𝚟𝚎𝚛`]() |
 
 </div>
 
@@ -64,3 +65,14 @@
 * [`Testing private methods using spyK`](https://github.com/devrath/TestingAlchemy/wiki/MockK:-Testing-private-methods-using-spyK)
 * [`Check if a function is invoked`](https://github.com/devrath/TestingAlchemy/wiki/MockK:-Check-if-a-function-is-invoked)
 * [`Testing the coroutines`](https://github.com/devrath/TestingAlchemy/wiki/MockK-:-Testing-the-coroutines)
+
+
+<h1 align="center">𝙼𝚘𝚌𝚔𝚆𝚎𝚋𝚂𝚎𝚛𝚟𝚎𝚛</h1>
+
+<div align="center">
+  
+![MockWebServer](https://github.com/devrath/TestingAlchemy/assets/1456191/9d30bd56-281e-4d31-a6b8-6e6bd9020040)
+
+</div>
+
+<div align="center"> 🍂 𝙼𝚘𝚌𝚔 𝚝𝚑𝚎 𝚛𝚎𝚜𝚙𝚘𝚗𝚜𝚎 𝚘𝚏 𝚝𝚑𝚎 𝚜𝚎𝚛𝚟𝚎𝚛 𝚝𝚘 𝚊 𝚖𝚘𝚌𝚔 𝚟𝚎𝚛𝚜𝚒𝚘𝚗. </div>
