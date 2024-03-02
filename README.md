@@ -63,3 +63,4 @@
 * [`Mocking Repository in the presenter class`](https://github.com/devrath/TestingAlchemy/wiki/MockK:-Mocking-Repository-in-the-presenter-class)
 * [`Testing private methods using spyK`](https://github.com/devrath/TestingAlchemy/wiki/MockK:-Testing-private-methods-using-spyK)
 * [`Check if a function is invoked`](https://github.com/devrath/TestingAlchemy/wiki/MockK:-Check-if-a-function-is-invoked)
+* [`Testing the coroutines`](https://github.com/devrath/TestingAlchemy/wiki/MockK-:-Testing-the-coroutines)
