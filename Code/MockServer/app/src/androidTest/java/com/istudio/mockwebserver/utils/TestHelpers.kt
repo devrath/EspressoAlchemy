@@ -45,26 +45,6 @@ class TestHelpers(){
         return mockWebServer
     }
 
-    /*fun buildOkHttpClient(): OkHttpClient {
-
-        var clientBuilder = OkHttpClient.Builder()
-
-        clientBuilder.sslSocketFactory(
-            clientCertificates.sslSocketFactory(),
-            clientCertificates.trustManager
-        )
-
-        if (BuildConfig.DEBUG) {
-            clientBuilder.addNetworkInterceptor(
-                HttpLoggingInterceptor().setLevel(
-                    HttpLoggingInterceptor.Level.BODY
-                ))
-        }
-
-        return clientBuilder.build()
-    }*/
-
-
     @Throws(IOException::class)
     fun getStringFromFile(fileName: String): String {
         try {

@@ -97,11 +97,7 @@ class MainActivityTest {
                         HttpLoggingInterceptor.Level.BODY
                     ))
             }
-
-
-
-
-
+            
             val retrofit = Retrofit.Builder()
                 .baseUrl(baseUrl)
                 .client(clientBuilder.build())
