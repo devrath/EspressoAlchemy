@@ -3,8 +3,10 @@ package com.istudio.mockwebserver.view
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.filters.LargeTest
 import androidx.test.platform.app.InstrumentationRegistry
+import com.istudio.mockwebserver.di.TestAppModule
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
+import dagger.hilt.android.testing.UninstallModules
 import org.junit.Assert.*
 
 import org.junit.After
@@ -14,16 +16,14 @@ import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.BeforeClass
 import org.junit.Test
-import java.io.BufferedReader
-import java.io.FileReader
 import java.io.IOException
-import java.io.InputStream
 import java.io.InputStreamReader
 import java.lang.Thread.sleep
 import java.net.InetAddress
 
 
 @LargeTest
+@UninstallModules(TestAppModule::class)
 @HiltAndroidTest
 class MainActivityTest {
 
@@ -36,7 +36,7 @@ class MainActivityTest {
     companion object {
 
         private lateinit var mockWebServer: MockWebServer
-        private lateinit var baseUrl: String
+        lateinit var baseUrl: String
 
 
         @BeforeClass
