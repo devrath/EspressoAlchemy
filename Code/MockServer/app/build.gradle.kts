@@ -16,7 +16,8 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        //testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.istudio.mockwebserver.application.CurrentTestApplication"
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -80,6 +81,10 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.48")
     // Hilt-Navigation
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    // For instrumented tests.
+    androidTestImplementation("com.google.dagger:hilt-android-testing:2.44")
+    // ...with Kotlin.
+    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.48")
     // Coil
     implementation("io.coil-kt:coil-compose:1.3.2")
     // Navigation
