@@ -2,18 +2,25 @@ package com.istudio.mockwebserver.view
 
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.filters.LargeTest
+import androidx.test.platform.app.InstrumentationRegistry
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
-import dagger.hilt.android.testing.HiltTestApplication
 import org.junit.Assert.*
 
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule
-import androidx.test.rule.ActivityTestRule
+import okhttp3.mockwebserver.MockResponse
+import okhttp3.mockwebserver.MockWebServer
+import org.junit.BeforeClass
 import org.junit.Test
-import org.junit.rules.RuleChain
+import java.io.BufferedReader
+import java.io.FileReader
+import java.io.IOException
+import java.io.InputStream
+import java.io.InputStreamReader
 import java.lang.Thread.sleep
+import java.net.InetAddress
 
 
 @LargeTest
@@ -25,6 +32,50 @@ class MainActivityTest {
 
     @get:Rule
     var activityRule = ActivityScenarioRule(MainActivity::class.java)
+
+    companion object {
+
+        private lateinit var mockWebServer: MockWebServer
+        private lateinit var baseUrl: String
+
+
+        @BeforeClass
+        @JvmStatic
+        fun setup() {
+
+            val localhost: String = InetAddress.getByName("localhost").canonicalHostName
+
+            mockWebServer = MockWebServer()
+            mockWebServer.enqueue(
+                MockResponse().setResponseCode(200)
+                    .setBody(FileReader.getStringFromFile("movies.json"))
+            )
+            mockWebServer.start()
+
+            baseUrl = mockWebServer.url("").toString()
+        }
+    }
+
+    object FileReader {
+
+        @Throws(IOException::class)
+        fun getStringFromFile(fileName: String): String {
+            try {
+                val inputStream = InstrumentationRegistry.getInstrumentation()
+                    .context.assets.open(fileName)
+                val builder = StringBuilder()
+                val reader = InputStreamReader(inputStream, "UTF-8")
+                reader.readLines().forEach {
+                    builder.append(it)
+                }
+                return builder.toString()
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+            return ""
+        }
+    }
+
 
     @Before
     fun setUp() {
