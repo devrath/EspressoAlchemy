@@ -57,6 +57,7 @@ class MainActivity : ComponentActivity() {
                 // Show error UI
                 ErrorComposable(dataState)
             }
+            else -> {}
         }
     }
 

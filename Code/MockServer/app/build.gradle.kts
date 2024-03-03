@@ -82,8 +82,6 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.44")
     // Hilt-Navigation
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
-    // For instrumented tests.
-    androidTestImplementation("com.google.dagger:hilt-android-testing:2.44")
     // ...with Kotlin.
     kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.48")
     // Coil
@@ -101,6 +99,8 @@ dependencies {
 
 
 
+    // ------> Instrumentation Test Dependencies
+    androidTestImplementation("com.google.dagger:hilt-android-testing:2.44")
     androidTestImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test:runner:1.5.2")
     androidTestImplementation("androidx.test:rules:1.5.0")

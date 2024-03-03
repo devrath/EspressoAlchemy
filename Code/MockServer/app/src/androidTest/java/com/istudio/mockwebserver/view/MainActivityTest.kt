@@ -13,6 +13,7 @@ import org.junit.Rule
 import androidx.test.rule.ActivityTestRule
 import org.junit.Test
 import org.junit.rules.RuleChain
+import java.lang.Thread.sleep
 
 
 @LargeTest
@@ -38,5 +39,7 @@ class MainActivityTest {
     @Test
     fun happyPath() {
         // Can already use analyticsAdapter here.
+        sleep(15000)
+
     }
 }
