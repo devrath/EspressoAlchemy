@@ -73,13 +73,17 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+
     // Hilt
-    implementation("com.google.dagger:hilt-android:2.48")
+    implementation("com.google.dagger:hilt-android:2.50")
     kapt("com.google.dagger:hilt-android-compiler:2.48")
     // Hilt-Navigation
-    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    // Coil
+    implementation("io.coil-kt:coil-compose:1.3.2")
     // Navigation
-    implementation ("androidx.navigation:navigation-compose:2.7.5")
+    implementation ("androidx.navigation:navigation-compose:2.7.7")
     // Lifecycle
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")

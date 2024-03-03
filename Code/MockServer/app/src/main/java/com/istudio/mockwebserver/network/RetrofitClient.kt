@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    private const val BASE_URL = "https://jsonplaceholder.typicode.com/"
+    private const val BASE_URL = "https://raw.githubusercontent.com/devrath/Sample-Data/master/Android-CleanArchitecture-Kotlin/"
 
     val retrofit: Retrofit by lazy {
         Retrofit.Builder()

@@ -1,38 +1,46 @@
 package com.istudio.mockwebserver.view
 
+import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import com.istudio.mockwebserver.data.ServerResponse
 import com.istudio.mockwebserver.network.ApiClient
-import com.istudio.mockwebserver.network.ApiService
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.StateFlow
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import javax.inject.Inject
+import androidx.compose.runtime.State
 
 @HiltViewModel
 class MainViewModel @Inject constructor( ) : ViewModel() {
 
+    private val _dataState = mutableStateOf<DataState>(DataState.Loading)
+    val dataState: State<DataState> = _dataState
+
+    init {
+        fetchData()
+    }
 
 
-    fun getData() {
+
+    private fun fetchData() {
 
         val call = ApiClient.apiService.getData()
 
-        call.enqueue(object : Callback<ServerResponse> {
+        call.enqueue(object : Callback<List<ServerResponse>> {
             override fun onResponse(
-                call: Call<ServerResponse>, response: Response<ServerResponse>
+                call: Call<List<ServerResponse>>, response: Response<List<ServerResponse>>
             ) {
                 if (response.isSuccessful) {
-                    val post = response.body()
-                    // Handle the retrieved post data
+                    response.body()?.let { _dataState.value = DataState.Success(it) }
                 } else {
-                    // Handle error
+                    _dataState.value = DataState.Error("Failed to fetch data")
                 }
             }
 
-            override fun onFailure(call: Call<ServerResponse>, t: Throwable) {
-                // Handle failure
+            override fun onFailure(call: Call<List<ServerResponse>>, t: Throwable) {
+                _dataState.value = DataState.Error(t.message.toString())
             }
         })
 
@@ -40,4 +48,10 @@ class MainViewModel @Inject constructor( ) : ViewModel() {
     }
 
 
+}
+
+sealed class DataState {
+    data object Loading : DataState()
+    data class Success(val data: List<ServerResponse>) : DataState()
+    data class Error(val errorMessage: String) : DataState()
 }
