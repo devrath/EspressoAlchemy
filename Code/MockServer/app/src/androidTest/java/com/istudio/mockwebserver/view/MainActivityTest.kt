@@ -6,6 +6,7 @@ import androidx.test.filters.LargeTest
 import androidx.test.platform.app.InstrumentationRegistry
 import com.istudio.mockwebserver.di.AppModule
 import com.istudio.mockwebserver.network.ApiService
+import com.istudio.mockwebserver.utils.TestHelpers
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -45,6 +46,8 @@ class MainActivityTest {
     @get:Rule
     var activityRule = ActivityScenarioRule(MainActivity::class.java)
 
+
+
     companion object {
 
         private lateinit var mockWebServer: MockWebServer
@@ -52,30 +55,23 @@ class MainActivityTest {
         lateinit var localhostCertificate: HeldCertificate
         lateinit var serverCertificates: HandshakeCertificates
         lateinit var clientCertificates: HandshakeCertificates
+        private val helpers = TestHelpers()
 
         @BeforeClass
         @JvmStatic
         fun setup() {
 
-            val localhost: String = InetAddress.getByName("localhost").canonicalHostName
-            localhostCertificate = HeldCertificate.Builder()
-                .addSubjectAlternativeName(localhost)
-                .build()
+            val mockResponse : MockResponse = MockResponse().apply {
+                setResponseCode(200)
+                setBody(helpers.getStringFromFile("movies.json"))
+            }
 
-            serverCertificates = HandshakeCertificates.Builder()
-                .heldCertificate(localhostCertificate)
-                .build()
+            localhostCertificate = helpers.localhostCertificate()
+            serverCertificates =  helpers.serverCertificate(localhostCertificate)
+            clientCertificates = helpers.clientCertificate(localhostCertificate)
+            mockWebServer = helpers.prepareMockServer(serverCertificates,mockResponse)
 
-            clientCertificates = HandshakeCertificates.Builder()
-                .addTrustedCertificate(localhostCertificate.certificate)
-                .build()
 
-            mockWebServer = MockWebServer()
-            mockWebServer.useHttps(serverCertificates.sslSocketFactory(), false)
-            mockWebServer.enqueue(
-                MockResponse().setResponseCode(200)
-                    .setBody(FileReader.getStringFromFile("movies.json"))
-            )
             mockWebServer.start()
 
             baseUrl = mockWebServer.url("").toString()
@@ -103,6 +99,9 @@ class MainActivityTest {
             }
 
 
+
+
+
             val retrofit = Retrofit.Builder()
                 .baseUrl(baseUrl)
                 .client(clientBuilder.build())
@@ -113,25 +112,7 @@ class MainActivityTest {
         }
     }
 
-    object FileReader {
 
-        @Throws(IOException::class)
-        fun getStringFromFile(fileName: String): String {
-            try {
-                val inputStream = InstrumentationRegistry.getInstrumentation()
-                    .context.assets.open(fileName)
-                val builder = StringBuilder()
-                val reader = InputStreamReader(inputStream, "UTF-8")
-                reader.readLines().forEach {
-                    builder.append(it)
-                }
-                return builder.toString()
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-            return ""
-        }
-    }
 
 
     @Before
