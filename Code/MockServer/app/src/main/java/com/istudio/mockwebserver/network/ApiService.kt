@@ -12,7 +12,7 @@ interface ApiService {
     }
 
     @GET(currency)
-    fun getPost(): Call<ServerResponse>
+    fun getData(): Call<ServerResponse>
 
 }
 
