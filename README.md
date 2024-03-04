@@ -127,4 +127,4 @@
 
 ## `Demos`
 * [`Check if a button is displayed on the screen`](https://github.com/devrath/TestingAlchemy/wiki/Check-if-a-button-is-displayed-on-the-screen)
-* [`Check if the button is displayed on the screen and on click of it the proper message is displayed on snack bar](https://github.com/devrath/TestingAlchemy/wiki/Check-if-the-button-is-displayed-on-the-screen-and-on-click-of-it-the-proper-message-is-displayed-on-snack-bar)
+* [`Check if the button is displayed on the screen and on click of it the proper message is displayed on snack bar`](https://github.com/devrath/TestingAlchemy/wiki/Check-if-the-button-is-displayed-on-the-screen-and-on-click-of-it-the-proper-message-is-displayed-on-snack-bar)
