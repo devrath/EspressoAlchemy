@@ -102,6 +102,7 @@
 * [`Docs`](https://developer.android.com/training/testing/other-components/ui-automator)
 
 ## `Learnings`
+[`What is UI-Automator`](https://github.com/devrath/TestingAlchemy/wiki/UI%E2%80%90Automator:-What-is-UI%E2%80%90Automator)
 
   
 ## `Demos`
