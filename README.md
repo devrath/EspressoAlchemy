@@ -92,7 +92,7 @@
 
 <div align="center">
   
-![how_to_find_ui_automator](https://github.com/devrath/TestingAlchemy/assets/1456191/a36423bc-2cf1-4e7e-b958-ab5157b0b790)
+![uiautomator_basics](https://github.com/devrath/TestingAlchemy/assets/1456191/56b91470-e46a-4dbd-a45e-58d6b477ce7e)
 
 </div>
 
