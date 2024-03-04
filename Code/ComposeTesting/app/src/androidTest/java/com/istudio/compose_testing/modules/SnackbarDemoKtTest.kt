@@ -16,17 +16,16 @@ class SnackbarDemoTest {
 
     @Test
     fun myTest() {
-
+        // <------------------------ ASSIGN ------------------------>
         val buttonText = "Show Snack Bar"
         val snackBarText = "SnackBarDemo"
-
 
         composeTestRule.setContent {
             DemoSnackBar()
         }
 
+        // <------------------------ ACT -------------------------->
         composeTestRule.onNodeWithText(buttonText).performClick()
-
         composeTestRule.onNodeWithText(snackBarText).isDisplayed()
     }
 
