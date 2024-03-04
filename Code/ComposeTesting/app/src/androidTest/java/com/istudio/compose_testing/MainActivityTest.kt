@@ -15,5 +15,5 @@ class MainActivityTest {
     fun myTest() {
         composeTestRule.onNodeWithText("Hello World!").performClick()
     }
-    
+
 }
