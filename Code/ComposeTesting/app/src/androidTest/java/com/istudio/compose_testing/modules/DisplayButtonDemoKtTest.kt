@@ -28,15 +28,7 @@ class DisplayButtonDemoKtTest {
 
         // Set the content
         composeTestRule.setContent {
-            ComposetestingTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    DisplayButtonDemo()
-                }
-            }
+            DisplayButtonDemo()
         }
 
         // <------------------------ ACT -------------------------->
