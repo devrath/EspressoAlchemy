@@ -9,6 +9,7 @@
 | [`𝙴𝚜𝚙𝚛𝚎𝚜𝚜𝚘`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%99%B4%F0%9D%9A%9C%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%9C%F0%9D%9A%9C%F0%9D%9A%98) |
 | [`𝙼𝚘𝚌𝚔𝙺`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%99%BC%F0%9D%9A%98%F0%9D%9A%8C%F0%9D%9A%94%F0%9D%99%BA) |
 | [`𝙼𝚘𝚌𝚔𝚆𝚎𝚋𝚂𝚎𝚛𝚟𝚎𝚛`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%99%BC%F0%9D%9A%98%F0%9D%9A%8C%F0%9D%9A%94%F0%9D%9A%86%F0%9D%9A%8E%F0%9D%9A%8B%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%9F%F0%9D%9A%8E%F0%9D%9A%9B) |
+| [`𝚄𝚒-𝙰𝚞𝚝𝚘𝚖𝚊𝚝𝚘𝚛`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%9A%84%F0%9D%9A%92-%F0%9D%99%B0%F0%9D%9A%9E%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%9B)
 
 </div>
 
@@ -85,4 +86,23 @@
 * [`What is mockServer in android`](https://github.com/devrath/TestingAlchemy/wiki/What-is-mockServer-in-android)
   
 ## `Demos`
-* [``]()
+* [`MockServerDemo`](https://github.com/devrath/TestingAlchemy/tree/main/Code/MockServer)
+
+<h1 align="center">𝚄𝚒-𝙰𝚞𝚝𝚘𝚖𝚊𝚝𝚘𝚛</h1>
+
+<div align="center">
+  
+![uiautomator_basics](https://github.com/devrath/TestingAlchemy/assets/1456191/56b91470-e46a-4dbd-a45e-58d6b477ce7e)
+
+</div>
+
+<div align="center"> 🍂 𝚃𝚑𝚎 𝚄𝙸 𝙰𝚞𝚝𝚘𝚖𝚊𝚝𝚘𝚛 𝙰𝙿𝙸𝚜 𝚕𝚎𝚝 𝚢𝚘𝚞 𝚒𝚗𝚝𝚎𝚛𝚊𝚌𝚝 𝚠𝚒𝚝𝚑 𝚟𝚒𝚜𝚒𝚋𝚕𝚎 𝚎𝚕𝚎𝚖𝚎𝚗𝚝𝚜 𝚘𝚗 𝚊 𝚍𝚎𝚟𝚒𝚌𝚎, 𝚛𝚎𝚐𝚊𝚛𝚍𝚕𝚎𝚜𝚜 𝚘𝚏 𝚠𝚑𝚒𝚌𝚑 𝙰𝚌𝚝𝚒𝚟𝚒𝚝𝚢 𝚒𝚜 𝚒𝚗 𝚏𝚘𝚌𝚞𝚜. </div>
+
+## `Set-up`
+* [`Docs`](https://developer.android.com/training/testing/other-components/ui-automator)
+
+## `Learnings`
+[`What is UI-Automator`](https://github.com/devrath/TestingAlchemy/wiki/UI%E2%80%90Automator:-What-is-UI%E2%80%90Automator)
+
+  
+## `Demos`
