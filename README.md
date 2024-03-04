@@ -123,4 +123,8 @@
 * [`Docs`](https://developer.android.com/jetpack/compose/testing)
 
 ## `Learnings`
+* [`Important information on compose testing.`](https://github.com/devrath/TestingAlchemy/wiki/Important-information-on-compose-testing.)
 
+## `Demos`
+* [`Check if a button is displayed on the screen`](https://github.com/devrath/TestingAlchemy/wiki/Check-if-a-button-is-displayed-on-the-screen)
+* [`Check if the button is displayed on the screen and on click of it the proper message is displayed on snack bar](https://github.com/devrath/TestingAlchemy/wiki/Check-if-the-button-is-displayed-on-the-screen-and-on-click-of-it-the-proper-message-is-displayed-on-snack-bar)
