@@ -107,7 +107,9 @@
 
   
 ## `Demos`
-
+* [`Launching the app from the home screen`](https://github.com/devrath/TestingAlchemy/wiki/UiAutomator:-Launching-the-app-from-the-home-screen)
+* [`Open Notifications Tray`](https://github.com/devrath/TestingAlchemy/wiki/UiAutomator:-Open-Notifications-Tray)
+* [`Launching the settings screen`](https://github.com/devrath/TestingAlchemy/wiki/UiAutomator:-Launching-the-settings-screen)
 
 <h1 align="center">𝙲𝚘𝚖𝚙𝚘𝚜𝚎𝚄𝚒𝚃𝚎𝚜𝚝𝚒𝚗𝚐</h1>
 
