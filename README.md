@@ -107,7 +107,9 @@
 
   
 ## `Demos`
-
+* [`Launching the app from the home screen`](https://github.com/devrath/TestingAlchemy/wiki/UiAutomator:-Launching-the-app-from-the-home-screen)
+* [`Open Notifications Tray`](https://github.com/devrath/TestingAlchemy/wiki/UiAutomator:-Open-Notifications-Tray)
+* [`Launching the settings screen`](https://github.com/devrath/TestingAlchemy/wiki/UiAutomator:-Launching-the-settings-screen)
 
 <h1 align="center">𝙲𝚘𝚖𝚙𝚘𝚜𝚎𝚄𝚒𝚃𝚎𝚜𝚝𝚒𝚗𝚐</h1>
 
@@ -128,3 +130,4 @@
 ## `Demos`
 * [`Check if a button is displayed on the screen`](https://github.com/devrath/TestingAlchemy/wiki/Check-if-a-button-is-displayed-on-the-screen)
 * [`Check if the button is displayed on the screen and on click of it the proper message is displayed on snack bar`](https://github.com/devrath/TestingAlchemy/wiki/Check-if-the-button-is-displayed-on-the-screen-and-on-click-of-it-the-proper-message-is-displayed-on-snack-bar)
+* [`Starting the activity with composable`](https://github.com/devrath/TestingAlchemy/wiki/Starting-the-activity-with-composable)
