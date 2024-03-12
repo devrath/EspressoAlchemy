@@ -11,6 +11,7 @@
 | [`𝙼𝚘𝚌𝚔𝚆𝚎𝚋𝚂𝚎𝚛𝚟𝚎𝚛`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%99%BC%F0%9D%9A%98%F0%9D%9A%8C%F0%9D%9A%94%F0%9D%9A%86%F0%9D%9A%8E%F0%9D%9A%8B%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%9F%F0%9D%9A%8E%F0%9D%9A%9B) |
 | [`𝚄𝚒-𝙰𝚞𝚝𝚘𝚖𝚊𝚝𝚘𝚛`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%9A%84%F0%9D%9A%92-%F0%9D%99%B0%F0%9D%9A%9E%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%9B)
 | [`𝙲𝚘𝚖𝚙𝚘𝚜𝚎𝚄𝚒𝚃𝚎𝚜𝚝𝚒𝚗𝚐`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%98%F0%9D%9A%9C%F0%9D%9A%8E%F0%9D%9A%84%F0%9D%9A%92%F0%9D%9A%83%F0%9D%9A%8E%F0%9D%9A%9C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%90) |
+| [`𝚁𝚘𝚋𝚘𝚎𝚕𝚎𝚌𝚝𝚛𝚒𝚌`](https://github.com/devrath/TestingAlchemy/blob/main/README.md#%F0%9D%9A%81%F0%9D%9A%98%F0%9D%9A%8B%F0%9D%9A%98%F0%9D%9A%8E%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%8C) |
 
 </div>
 
@@ -127,7 +128,22 @@
 ## `Learnings`
 * [`Important information on compose testing.`](https://github.com/devrath/TestingAlchemy/wiki/Important-information-on-compose-testing.)
 
+
+<h1 align="center">𝚁𝚘𝚋𝚘𝚎𝚕𝚎𝚌𝚝𝚛𝚒𝚌</h1>
+
+<div align="center">
+  
+![1_Ms6ynfEYZdgJrA8jCpIOtQ](https://github.com/devrath/TestingAlchemy/assets/1456191/99da77cd-7195-4e32-a895-24faa1f2772d)
+
+</div>
+
+<div align="center"> 🍂 𝚁𝚘𝚋𝚘𝚕𝚎𝚌𝚝𝚛𝚒𝚌 𝚒𝚜 𝚊 𝚞𝚗𝚒𝚝 𝚝𝚎𝚜𝚝𝚒𝚗𝚐 𝚏𝚛𝚊𝚖𝚎𝚠𝚘𝚛𝚔 𝚏𝚘𝚛 𝙰𝚗𝚍𝚛𝚘𝚒𝚍 </div>
+
+## `Set-up`
+* [`Docs`](https://robolectric.org/getting-started/)
+
+## `Learnings`
+* [`Wht is roboelectric`](https://github.com/devrath/TestingAlchemy/wiki/What-is-roboelectric)
+
 ## `Demos`
-* [`Check if a button is displayed on the screen`](https://github.com/devrath/TestingAlchemy/wiki/Check-if-a-button-is-displayed-on-the-screen)
-* [`Check if the button is displayed on the screen and on click of it the proper message is displayed on snack bar`](https://github.com/devrath/TestingAlchemy/wiki/Check-if-the-button-is-displayed-on-the-screen-and-on-click-of-it-the-proper-message-is-displayed-on-snack-bar)
-* [`Starting the activity with composable`](https://github.com/devrath/TestingAlchemy/wiki/Starting-the-activity-with-composable)
+
